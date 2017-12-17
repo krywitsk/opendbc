@@ -43,3 +43,23 @@ BO_ 151 Accelerometers: 8 XXX
 BO_ 310 Throttle: 8 XXX
  SG_ NEW_SIGNAL_1 : 63|8@0+ (1,0) [0|255] "" XXX
  SG_ Throttle : 31|16@0+ (1,0) [0|65535] "" XXX
+
+BO_ 57 NEW_MSG_1: 8 XXX
+ SG_ NEW_SIGNAL_1 : 15|8@0+ (1,0) [0|255] "" XXX
+
+BO_ 319 Engine_Param?: 8 XXX
+ SG_ NEW_SIGNAL_1 : 15|8@0+ (1,0) [0|7] "" XXX
+ SG_ NEW_SIGNAL_2 : 31|8@0+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_3 : 47|8@0+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_4 : 39|8@0+ (1,0) [0|255] "" XXX
+
+BO_ 344 NEW_MSG_2: 8 XXX
+ SG_ NEW_SIGNAL_1 : 55|8@0+ (1,0) [0|255] "" XXX
+
+BO_ 356 External_Lights: 8 XXX
+ SG_ NEW_SIGNAL_1 : 32|1@1+ (1,0) [0|3] "" XXX
+ SG_ Low_Beam_On : 1|1@1+ (1,0) [0|3] "" XXX
+ SG_ High_Beam_On : 0|1@1+ (1,0) [0|3] "" XXX
+ SG_ Fog_Light_On : 21|1@0+ (1,0) [0|3] "" XXX
+ SG_ Handbrake_Light_On : 2|1@1+ (1,0) [0|3] "" XXX
+ SG_ VSA_Button_Pressed : 4|1@0+ (1,0) [0|3] "" XXX
